@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="320" viewBox="0 0 1024 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Zayyan — developer and builder</title>
+  <desc id="desc">Ideas are good. Making them real is better. A light portfolio banner with a blue Z mark and a subtle grid.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#2458E5" stroke-opacity=".08"/>
+    </pattern>
+    <linearGradient id="wash" x1="640" y1="0" x2="1024" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF3FF"/>
+      <stop offset="1" stop-color="#F8F9FC"/>
+    </linearGradient>
+    <clipPath id="round"><rect x=".5" y=".5" width="1023" height="319" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1024" height="320" fill="#F8F9FC"/>
+    <path d="M715 0H1024V320H585L715 0Z" fill="url(#wash)"/>
+    <rect x="640" width="384" height="320" fill="url(#grid)"/>
+    <path d="M770-24 626 344M866-24 722 344M962-24 818 344" stroke="#2458E5" stroke-opacity=".09"/>
+    <rect x="44" y="38" width="39" height="39" rx="11" fill="#2458E5"/>
+    <path d="M55 49H70L56 65H71" stroke="white" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="73" cy="66" r="2" fill="#FFBF95"/>
+    <text x="98" y="63" fill="#4D5B72" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">DEVELOPER / BUILDER</text>
+    <text x="43" y="157" fill="#202632" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700" letter-spacing="-3">Zayyan.</text>
+    <text x="45" y="206" fill="#4D5B72" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="-.5">Ideas are good.</text>
+    <text x="45" y="246" fill="#2458E5" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-style="italic" letter-spacing="-.8">Making them real is better.</text>
+    <path d="M886 127V193M853 160H919M863 137 909 183M863 183 909 137" stroke="#2458E5" stroke-width="2" stroke-linecap="round"/>
+    <text x="979" y="282" text-anchor="end" fill="#52637E" font-family="Arial, Helvetica, sans-serif" font-size="17">zayyan.cc ↗</text>
+  </g>
+  <rect x=".5" y=".5" width="1023" height="319" rx="20" stroke="#DFE6F0"/>
+</svg>
